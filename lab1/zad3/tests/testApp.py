@@ -65,7 +65,6 @@ class SongTest(unittest.TestCase):
                                         "five Gold Rings, four Calling Birds, three French Hens, two Turtle Doves, "
                                         "and a Partridge in a Pear Tree.")
 
-    @unittest.skip
     def test_verses_1_3(self):
         self.assertEqual(song.sing(1, 3), "On the second day of Christmas my true love gave to me: two Turtle Doves, "
                                           "and a Partridge in a Pear Tree.\n\nOn the third day of Christmas my true "
