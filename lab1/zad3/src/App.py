@@ -49,5 +49,7 @@ class Song:
                 return self.text[6]
             elif a == 8:
                 return self.text[7]
+            elif a == 9:
+                return self.text[8]
 
 song = Song()
