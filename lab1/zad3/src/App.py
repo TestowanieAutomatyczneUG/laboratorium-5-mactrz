@@ -58,4 +58,13 @@ class Song:
             elif a == 12:
                 return self.text[11]
 
+        else:
+            ans = ""
+            for i in range(a - 1, b):
+                textadd = self.text[i]
+                if i != b-1:
+                    textadd += "\n\n"
+                ans += textadd
+            return ans
+
 song = Song()

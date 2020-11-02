@@ -66,12 +66,11 @@ class SongTest(unittest.TestCase):
                                         "and a Partridge in a Pear Tree.")
 
     def test_verses_1_3(self):
-        self.assertEqual(song.sing(1, 3), "On the second day of Christmas my true love gave to me: two Turtle Doves, "
-                                          "and a Partridge in a Pear Tree.\n\nOn the third day of Christmas my true "
-                                          "love gave to me: three French Hens, two Turtle Doves, and a Partridge in a "
-                                          "Pear Tree.\n\nOn the fourth day of Christmas my true love gave to me: four "
-                                          "Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a "
-                                          "Pear Tree.")
+        self.assertEqual(song.sing(1, 3), "On the first day of Christmas my true love gave to me: a Partridge in a "
+                                          "Pear Tree.\n\nOn the second day of Christmas my true love gave to me: two "
+                                          "Turtle Doves, and a Partridge in a Pear Tree.\n\nOn the third day of "
+                                          "Christmas my true love gave to me: three French Hens, two Turtle Doves, "
+                                          "and a Partridge in a Pear Tree.")
 
     @unittest.skip
     def test_whole_song(self):
