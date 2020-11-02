@@ -37,5 +37,7 @@ class Song:
                 return self.text[1]
             elif a == 1:
                 return self.text[0]
+            elif a == 3:
+                return self.text[2]
 
 song = Song()
