@@ -26,9 +26,15 @@ def roman(number):
             elif number >= 10:
                 base = 10
                 baseROM = "X"
+            elif number >= 9:
+                base = 9
+                baseROM = "IX"
             elif number >= 5:
                 base = 5
                 baseROM = "V"
+            elif number >= 4:
+                base = 4
+                baseROM = "IV"
             elif number >= 1:
                 base = 1
                 baseROM = "I"
