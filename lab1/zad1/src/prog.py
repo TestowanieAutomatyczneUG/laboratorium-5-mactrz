@@ -8,6 +8,8 @@ class Hamming:
             return 1
         elif len(a) > len(b):
             raise ValueError("First strand longer")
+        elif len(b) > len(a):
+            raise  ValueError("Second strand longer")
         else:
             wynik = 0
             for i in range(len(a)):
