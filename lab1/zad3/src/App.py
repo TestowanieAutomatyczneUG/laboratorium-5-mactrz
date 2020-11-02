@@ -41,30 +41,7 @@ class Song:
         if a > 12:
             raise ValueError("Can't be bigger than 12")
         if b is None:
-            if a == 2:
-                return self.text[1]
-            elif a == 1:
-                return self.text[0]
-            elif a == 3:
-                return self.text[2]
-            elif a == 4:
-                return self.text[3]
-            elif a == 5:
-                return self.text[4]
-            elif a == 6:
-                return self.text[5]
-            elif a == 7:
-                return self.text[6]
-            elif a == 8:
-                return self.text[7]
-            elif a == 9:
-                return self.text[8]
-            elif a == 10:
-                return self.text[9]
-            elif a == 11:
-                return self.text[10]
-            elif a == 12:
-                return self.text[11]
+            return self.text[a-1]
 
         else:
             if type(b) != int:
