@@ -72,7 +72,6 @@ class SongTest(unittest.TestCase):
                                           "Christmas my true love gave to me: three French Hens, two Turtle Doves, "
                                           "and a Partridge in a Pear Tree.")
 
-    @unittest.skip
     def test_whole_song(self):
         self.assertEqual(song.sing(1, 12), "On the first day of Christmas my true love gave to me: a Partridge in a "
                                            "Pear Tree.\n\nOn the second day of Christmas my true love gave to me: two "
