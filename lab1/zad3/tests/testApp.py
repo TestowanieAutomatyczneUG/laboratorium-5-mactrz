@@ -113,7 +113,6 @@ class SongTest(unittest.TestCase):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(-1, 2)
 
-    @unittest.skip
     def test_disallow_negative_second(self):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(1, -2)
