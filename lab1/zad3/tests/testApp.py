@@ -133,7 +133,6 @@ class SongTest(unittest.TestCase):
         with self.assertRaisesWithMessage(ValueError):
             song.sing("1", True)
 
-    @unittest.skip
     def test_disallow_zero(self):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(0)
