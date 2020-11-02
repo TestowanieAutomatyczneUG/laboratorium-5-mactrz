@@ -43,5 +43,7 @@ class Song:
                 return self.text[3]
             elif a == 5:
                 return self.text[4]
+            elif a == 6:
+                return self.text[5]
 
 song = Song()
