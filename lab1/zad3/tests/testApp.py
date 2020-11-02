@@ -131,7 +131,7 @@ class SongTest(unittest.TestCase):
 
     def test_disallow_different_types(self):
         with self.assertRaisesWithMessage(ValueError):
-            song.sing("1")
+            song.sing("1", True)
 
     @unittest.skip
     def test_disallow_zero(self):
