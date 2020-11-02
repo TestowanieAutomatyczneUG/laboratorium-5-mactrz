@@ -32,6 +32,8 @@ class Song:
                      "Hens, two Turtle Doves, and a Partridge in a Pear Tree."
                      ]
     def sing(self, a, b = None):
+        if a < 0:
+            raise ValueError("Can't be negative")
         if b is None:
             if a == 2:
                 return self.text[1]
