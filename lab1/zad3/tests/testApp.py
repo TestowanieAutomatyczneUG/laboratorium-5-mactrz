@@ -135,7 +135,7 @@ class SongTest(unittest.TestCase):
 
     def test_disallow_zero(self):
         with self.assertRaisesWithMessage(ValueError):
-            song.sing(0)
+            song.sing(0, 0)
 
     def setUp(self):
         try:
