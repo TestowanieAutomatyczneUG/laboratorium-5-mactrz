@@ -40,7 +40,6 @@ class SongTest(unittest.TestCase):
                                        "four Calling Birds, three French Hens, two Turtle Doves, and a Partridge in a "
                                        "Pear Tree.")
 
-    @unittest.skip
     def test_one_verse_eighth(self):
         self.assertEqual(song.sing(9), "On the ninth day of Christmas my true love gave to me: nine Ladies Dancing, "
                                        "eight Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, "
