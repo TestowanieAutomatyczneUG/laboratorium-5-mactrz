@@ -35,5 +35,7 @@ class Song:
         if b is None:
             if a == 2:
                 return self.text[1]
+            elif a == 1:
+                return self.text[0]
 
 song = Song()
