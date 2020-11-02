@@ -125,7 +125,6 @@ class SongTest(unittest.TestCase):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(3, 15)
 
-    @unittest.skip
     def test_disallow_first_bigger_then_second(self):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(6, 2)
