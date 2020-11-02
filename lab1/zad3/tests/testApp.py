@@ -121,7 +121,6 @@ class SongTest(unittest.TestCase):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(13)
 
-    @unittest.skip
     def test_disallow_greater_then_12_range(self):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(3, 15)
