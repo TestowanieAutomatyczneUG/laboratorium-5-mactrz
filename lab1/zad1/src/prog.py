@@ -4,14 +4,13 @@ class Hamming:
             return 0
         elif a == "A" and b == "A":
             return 0
-        elif a == "G" and b =="T":
+        elif a == "G" and b == "T":
             return 1
         else:
             wynik = 0
-            for i in a:
-                for j in b:
-                    if i != j:
-                        break
+            for i in range(len(a)):
+                if a[i] != b[i]:
+                    wynik += 1
             return wynik
 
 
