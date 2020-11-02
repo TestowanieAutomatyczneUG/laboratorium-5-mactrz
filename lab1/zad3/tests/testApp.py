@@ -52,7 +52,6 @@ class SongTest(unittest.TestCase):
                                         "six Geese-a-Laying, five Gold Rings, four Calling Birds, three French Hens, "
                                         "two Turtle Doves, and a Partridge in a Pear Tree.")
 
-    @unittest.skip
     def test_one_verse_tenth(self):
         self.assertEqual(song.sing(11), "On the eleventh day of Christmas my true love gave to me: eleven Pipers "
                                         "Piping, ten Lords-a-Leaping, nine Ladies Dancing, eight Maids-a-Milking, "
