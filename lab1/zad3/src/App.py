@@ -32,8 +32,10 @@ class Song:
                      "Hens, two Turtle Doves, and a Partridge in a Pear Tree."
                      ]
     def sing(self, a, b = None):
-        if a < 0 or b < 0:
+        if a < 0:
             raise ValueError("Can't be negative")
+        if a > 12:
+            raise ValueError("Can't be bigger than 12")
         if b is None:
             if a == 2:
                 return self.text[1]
@@ -61,6 +63,8 @@ class Song:
                 return self.text[11]
 
         else:
+            if b < 0:
+                raise ValueError("Can't be negative")
             ans = ""
             for i in range(a - 1, b):
                 textadd = self.text[i]
