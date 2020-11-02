@@ -31,7 +31,9 @@ class Song:
                      "seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, three French "
                      "Hens, two Turtle Doves, and a Partridge in a Pear Tree."
                      ]
-    def sing(self, a, b):
-        print("")
+    def sing(self, a, b = None):
+        if b is None:
+            if a == 2:
+                return self.text[1]
 
 song = Song()
