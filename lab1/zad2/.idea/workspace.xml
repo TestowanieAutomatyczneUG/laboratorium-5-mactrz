@@ -29,7 +29,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for program_tests.RomanNumeralsTest.test_3000_is_three_m_s">
+  <component name="RunManager" selected="Python tests.Unittests for program_tests.RomanNumeralsTest">
+    <configuration name="Unittests for program_tests.RomanNumeralsTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="zad2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;program_tests.RomanNumeralsTest&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for program_tests.RomanNumeralsTest.test_1000_is_a_single_m" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="zad2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,20 +86,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for program_tests.RomanNumeralsTest.test_500_is_a_single_d" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="zad2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;program_tests.RomanNumeralsTest.test_500_is_a_single_d&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for program_tests.RomanNumeralsTest.test_900_being_1000_100_is_cm" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="zad2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for program_tests.RomanNumeralsTest" />
+        <item itemvalue="Python tests.Unittests for program_tests.RomanNumeralsTest.test_400_being_500_100_is_cd" />
         <item itemvalue="Python tests.Unittests for program_tests.RomanNumeralsTest.test_3000_is_three_m_s" />
         <item itemvalue="Python tests.Unittests for program_tests.RomanNumeralsTest.test_1000_is_a_single_m" />
         <item itemvalue="Python tests.Unittests for program_tests.RomanNumeralsTest.test_900_being_1000_100_is_cm" />
-        <item itemvalue="Python tests.Unittests for program_tests.RomanNumeralsTest.test_500_is_a_single_d" />
-        <item itemvalue="Python tests.Unittests for program_tests.RomanNumeralsTest.test_400_being_500_100_is_cd" />
       </list>
     </recent_temporary>
   </component>
@@ -136,21 +136,21 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604347718089">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604347822489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604347718089" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604347718089">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604347822489" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604347822489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604347718089" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604347718089">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604347822489" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604347822488">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604347718089" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604347718089">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604347822488" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604347822489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604347718089" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604347822489" />
   </component>
 </project>
