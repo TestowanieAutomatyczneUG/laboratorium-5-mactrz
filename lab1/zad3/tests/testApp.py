@@ -34,7 +34,6 @@ class SongTest(unittest.TestCase):
                                        "Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, four Calling Birds, "
                                        "three French Hens, two Turtle Doves, and a Partridge in a Pear Tree.")
 
-    @unittest.skip
     def test_one_verse_seventh(self):
         self.assertEqual(song.sing(8), "On the eighth day of Christmas my true love gave to me: eight "
                                        "Maids-a-Milking, seven Swans-a-Swimming, six Geese-a-Laying, five Gold Rings, "
