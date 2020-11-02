@@ -20,7 +20,10 @@ def roman(number):
         baseROM = ""
         base = 1
         while number != 0:
-            if number >= 400:
+            if number >= 500:
+                base = 500
+                baseROM = "D"
+            elif number >= 400:
                 base = 400
                 baseROM = "CD"
             elif number >= 100:
