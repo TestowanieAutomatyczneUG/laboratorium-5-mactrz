@@ -6,6 +6,8 @@ class Hamming:
             return 0
         elif a == "G" and b == "T":
             return 1
+        elif len(a) > len(b):
+            raise ValueError("First strand longer")
         else:
             wynik = 0
             for i in range(len(a)):
