@@ -67,6 +67,8 @@ class Song:
                 raise ValueError("Can't be negative")
             if b > 12:
                 raise ValueError("Can't be bigger then 12")
+            if a > b:
+                raise ValueError("Incorrect order")
             ans = ""
             for i in range(a - 1, b):
                 textadd = self.text[i]
