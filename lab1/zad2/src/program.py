@@ -20,7 +20,10 @@ def roman(number):
         baseROM = ""
         base = 1
         while number != 0:
-            if number >= 10:
+            if number >= 40:
+                base = 40
+                baseROM = "XL"
+            elif number >= 10:
                 base = 10
                 baseROM = "X"
             elif number >= 9:
