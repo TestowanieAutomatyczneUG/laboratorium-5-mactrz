@@ -109,7 +109,6 @@ class SongTest(unittest.TestCase):
                                            "Birds, three French Hens, two Turtle Doves, and a Partridge in a Pear "
                                            "Tree.")
 
-    @unittest.skip
     def test_disallow_negative_first(self):
         with self.assertRaisesWithMessage(ValueError):
             song.sing(-1, 2)

@@ -31,7 +31,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testApp.SongTest.test_whole_song">
+  <component name="RunManager" selected="Python tests.Unittests for testApp.SongTest.test_disallow_negative_first">
+    <configuration name="Unittests for testApp.SongTest.test_disallow_negative_first" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="zad3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;testApp.SongTest.test_disallow_negative_first&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for testApp.SongTest.test_one_verse_eleventh" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="zad3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -43,20 +57,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;testApp.SongTest.test_one_verse_eleventh&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for testApp.SongTest.test_one_verse_ninth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="zad3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testApp.SongTest.test_one_verse_ninth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for testApp.SongTest.test_disallow_negative_first" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_whole_song" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_verses_1_3" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_eleventh" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_tenth" />
-        <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_ninth" />
       </list>
     </recent_temporary>
   </component>
@@ -142,22 +142,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="64" y="5" width="1350" height="638" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1536.824@0.0.1536.824" timestamp="1604359363595" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604359382496">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604359438457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604359382496" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604359382496">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604359438457" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604359438457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604359382496" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604359382496">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604359438457" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604359438457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604359382496" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604359382496">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604359438457" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604359438457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604359382496" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604359438457" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1604354997119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
