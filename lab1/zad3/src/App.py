@@ -51,5 +51,7 @@ class Song:
                 return self.text[7]
             elif a == 9:
                 return self.text[8]
+            elif a == 10:
+                return self.text[9]
 
 song = Song()

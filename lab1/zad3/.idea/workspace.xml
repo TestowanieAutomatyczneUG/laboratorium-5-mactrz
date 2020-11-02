@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for testApp.SongTest.test_one_verse_eighth">
+  <component name="RunManager" selected="Python tests.Unittests for testApp.SongTest.test_one_verse_ninth">
     <configuration name="Unittests for testApp.SongTest.test_one_verse_eighth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="zad3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,7 +56,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for testApp.SongTest.test_one_verse_fourth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for testApp.SongTest.test_one_verse_ninth" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="zad3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +66,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testApp.SongTest.test_one_verse_fourth&quot;" />
+      <option name="_new_target" value="&quot;testApp.SongTest.test_one_verse_ninth&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_ninth" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_eighth" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_seventh" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_sixth" />
         <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_fifth" />
-        <item itemvalue="Python tests.Unittests for testApp.SongTest.test_one_verse_fourth" />
       </list>
     </recent_temporary>
   </component>
@@ -134,22 +134,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604358531676">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1604358573838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604358531676" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604358531676">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604358573838" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1604358573838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604358531676" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604358531676">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604358573838" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1604358573838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604358531676" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604358531676">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604358573838" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1604358573838">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604358531676" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604358573838" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1604354997119">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
