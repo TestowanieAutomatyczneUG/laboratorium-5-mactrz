@@ -1,4 +1,5 @@
-from src.App import song
+from src import App
+song = App.song
 import unittest
 
 
