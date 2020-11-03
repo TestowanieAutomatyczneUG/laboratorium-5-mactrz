@@ -1,6 +1,5 @@
 import sys, os
-myPath = os.path.dirname(os.path.abspath('C:/Users/Maciek/Desktop/stepik/lab1/zad3/src/App.py'))
-sys.path.insert(0, myPath + '/../')
+sys.path.append(os.path.abspath('C:/Users/Maciek/Desktop/stepik/lab1/zad3/src/App.py'))
 import unittest
 from src import App
 song = App.song
