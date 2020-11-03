@@ -1,7 +1,9 @@
+import sys, os
+myPath = os.path.dirname(os.path.abspath('C:/Users/Maciek/Desktop/stepik/lab1/zad3/src/App.py'))
+sys.path.insert(0, myPath + '/../')
+import unittest
 from src import App
 song = App.song
-import unittest
-
 
 class SongTest(unittest.TestCase):
     def test_one_verse_first(self):
